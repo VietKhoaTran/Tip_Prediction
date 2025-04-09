@@ -7,7 +7,6 @@
 - [Data Processing](#data-processing)
 - [Models](#models)
 - [Evaluation](#evaluation)
-- [Usage](#usage)
 - [Future Improvements](#future-improvements)
 - [Dependencies](#dependencies)
 - [Files](#files)
@@ -104,18 +103,6 @@ Class Distribution:
 
 -Not Generous (0): 5,981 (39.2%)
 
-# Usage
--python
--Copy
--Edit
--import pickle
-
-# Load model
-with open('model.pickle', 'rb') as f:
-    model = pickle.load(f)
-
-# Predict on new data
-predictions = model.predict(new_data)
 # Future Improvements
 Ideas for enhancing the model:
 
